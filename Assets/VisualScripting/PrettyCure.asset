@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: PrettyCure
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-371.0,"y":50.0},"guid":"e6d6780b-70c1-498f-947d-b69f4c2beab5","$version":"A","$type":"Unity.VisualScripting.Start"},{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":60.0},"guid":"8fd0afda-fa9d-49ba-a5ba-d179bb822513","$version":"A","$type":"Unity.VisualScripting.Update"},{"chainable":false,"parameterNames":["sceneName"],"member":{"name":"LoadScene","parameterTypes":["System.String"],"targetType":"UnityEngine.SceneManagement.SceneManager","targetTypeName":"UnityEngine.SceneManagement.SceneManager","$version":"A"},"defaultValues":{"%sceneName":{"$content":"One","$type":"System.String"}},"position":{"x":-27.0,"y":-243.0},"guid":"f86d7938-79fc-4dec-8f2b-79e69f673ffc","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"13"},{"coroutine":false,"defaultValues":{"name":{"$content":"start","$type":"System.String"}},"position":{"x":-324.0,"y":-300.0},"guid":"350f14ab-1b99-4bb2-a666-5999a2c26b61","$version":"A","$type":"Unity.VisualScripting.BoltUnityEvent","$id":"17"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"sceneName","$type":"System.String"},"object":null},"position":{"x":-303.0,"y":-111.0},"guid":"41ac2b4d-13a3-47c9-8d5d-e47c53a50441","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"19"},{"sourceUnit":{"$ref":"17"},"sourceKey":"trigger","destinationUnit":{"$ref":"13"},"destinationKey":"enter","guid":"fd1b03ee-8b1f-4b3c-8ee9-a1ce5e532afd","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"19"},"sourceKey":"value","destinationUnit":{"$ref":"13"},"destinationKey":"%sceneName","guid":"905f5107-8b4d-4990-a4f6-b6b47ae14ea0","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
